@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: rgb(48, 45, 45);
+    background: rgb(48, 45, 45);
     margin: 0;
 }
 
@@ -28,6 +28,11 @@ form{
     border-radius: 3em;
 }
 
+.container h3{
+    margin-top: 0;
+    color: white;
+    font-size: 30px;
+}
 
 #add{
     height: 3em;
@@ -45,7 +50,7 @@ ul#lists{
 }
 
 ul#lists li{
-    font-size: 40px;
+    font-size: 30px;
     margin: 1em;
     padding: 12px;
     background: white;

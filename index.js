@@ -23,10 +23,7 @@ function generateList(event) {
     
     buttonDelete.addEventListener('click', (event) =>{
         const parentNodeEl = event.target.parentNode;
-        setTimeout(() =>{
-            parentNodeEl.remove();
-        }, 500)
-        
+        parentNodeEl.remove();
     });
          
 }
